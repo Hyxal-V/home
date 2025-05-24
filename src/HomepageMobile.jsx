@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import { useNavigate } from 'react-router-dom'
 
-
+import pfp from "@/assets/pfp.png"
 import {
   HoverCard,
   HoverCardContent,
@@ -41,7 +41,7 @@ function HomepageMobile() {
       <div className="flex justify-center mt-10">
         <Card className="w-full max-w-sm">
           <CardHeader>
-            <img src="/src/assets/pfp.png" className="rounded-lg w-full" alt="Profile" />
+            <img src={pfp} className="rounded-lg w-full" alt="Profile" />
             <CardTitle className="text-3xl mt-4 text-center">Hello, I'm Hyxal</CardTitle>
             <CardDescription className="text-center text-lg">Internet Wizard who makes stuff</CardDescription>
           </CardHeader>
@@ -63,7 +63,7 @@ function HomepageMobile() {
         <Breadcrumb>
           <BreadcrumbList>
             <BreadcrumbItem>
-              <BreadcrumbLink href="/" className="text-2xl">Home</BreadcrumbLink>
+              <BreadcrumbLink href="/home" className="text-2xl">Home</BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
@@ -84,7 +84,7 @@ function HomepageMobile() {
         <Breadcrumb className="mt-8">
           <BreadcrumbList>
             <BreadcrumbItem>
-              <BreadcrumbLink href="/" className="text-2xl">Home</BreadcrumbLink>
+              <BreadcrumbLink href="/home" className="text-2xl">Home</BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>

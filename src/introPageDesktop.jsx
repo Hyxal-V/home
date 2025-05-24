@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/components/ui/theme-provider.jsx"
 import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import { useNavigate } from "react-router-dom"
-
+import pfp from "@/assets/pfp.png"
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -32,7 +32,7 @@ function HomepageDesktop(){
   <div class="w-[20%] mt-10 ml-20 flex justify-start items-start h-screen">
     <Card className="w-68" >
   <CardHeader className="">
-    <img src="/src/assets/pfp.png" className="rounded-lg w-80" />
+    <img src={pfp} className="rounded-lg w-80" />
     <CardTitle className="text-4xl">Hello, I'm Hyxal</CardTitle>
     <CardDescription className="text-1xl">Internet Wizard who makes stuff</CardDescription>
   </CardHeader>
@@ -51,7 +51,7 @@ function HomepageDesktop(){
   <Breadcrumb className="">
   <BreadcrumbList>
     <BreadcrumbItem className="ml-10 text-2xl">
-      <BreadcrumbLink href="/" className="text-3xl">Home</BreadcrumbLink>
+      <BreadcrumbLink href="/home" className="text-3xl">Home</BreadcrumbLink>
     </BreadcrumbItem>
     <BreadcrumbSeparator />
     <BreadcrumbItem>
@@ -72,7 +72,7 @@ Stick around, might be something here you’ll like.<br/><br/>
     <Breadcrumb className="">
   <BreadcrumbList>
     <BreadcrumbItem className="ml-10 text-2xl">
-      <BreadcrumbLink href="/" className="text-3xl">Home</BreadcrumbLink>
+      <BreadcrumbLink href="/home" className="text-3xl">Home</BreadcrumbLink>
     </BreadcrumbItem>
     <BreadcrumbSeparator />
     <BreadcrumbItem>
