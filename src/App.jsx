@@ -20,7 +20,7 @@ function App() {
       <Router>
         <Routes>
           <Route
-            path="/"
+            path="/home"
             element={windowWidth < 1024 ? <HomepageMobile /> : <HomepageDesktop />}
           />
           {/* Example additional route if you want */}
