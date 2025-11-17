@@ -24,7 +24,7 @@ function App() {
             element={windowWidth < 1024 ? <HomepageMobile /> : <HomepageDesktop />}
           />
           {/* Example additional route if you want */}
-          <Route path="/projects" element={<ProjectPage />} />
+          <Route path="/home/projects" element={<ProjectPage />} />
         </Routes>
       </Router>
     </ThemeProvider>

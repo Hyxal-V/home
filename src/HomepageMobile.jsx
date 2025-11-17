@@ -33,7 +33,7 @@ function HomepageMobile() {
     const navigate = useNavigate()
 
   const handleClick = () => {
-    navigate('/projects')
+    navigate('/home/projects')
   }
   return (
     <div className="flex flex-col p-5">
