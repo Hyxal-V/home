@@ -33,14 +33,19 @@ function HomepageDesktop(){
     <Card className="w-68" >
   <CardHeader className="">
     <img src={pfp} className="rounded-lg w-80" />
-    <CardTitle className="text-4xl">Hello, I'm Hyxal</CardTitle>
-    <CardDescription className="text-1xl">Internet Wizard who makes stuff</CardDescription>
+   <CardTitle className="text-3xl mt-4 text-center">Hyxal V</CardTitle>
+
+    <CardDescription className="text-1xl">Internet Wizard just existing..</CardDescription>
   </CardHeader>
   <CardContent className="justify-center flex flex-col items-center ">
     <p></p>
     <a href="https://github.com/Hyxal-V" className="w-full"><Button variant="outline" className="w-full mb-3"><i class="fa-brands fa-github"/> Github</Button>
 </a>
-<a href="https://x.com/HyxalV/" className="w-full"><Button variant="outline" className="w-full mb-0"><i class="fa-brands fa-x-twitter"/> Twitter</Button>
+<a href="https://x.com/HyxalV" className="w-full"><Button variant="outline" className="w-full mb-3"><i class="fa-brands fa-x-twitter"/> Twitter</Button>
+</a>
+<a href="https://www.instagram.com/hyxal.labs" className="w-full"><Button variant="outline" className="w-full mb-3"><i class="fa-brands fa-instagram"/> Instagram</Button>
+</a>
+<a href="https://www.youtube.com/@Hyxal-Labs" className="w-full"><Button variant="outline" className="w-full mb-1"><i class="fa-brands fa-youtube"/> Youtube</Button>
 </a>
   </CardContent>
 
@@ -59,16 +64,19 @@ function HomepageDesktop(){
     </BreadcrumbItem>
   </BreadcrumbList>
 </Breadcrumb>
-  <p className="mt-10 mr-10 ml-10 text-2xl"> 
-Hey there! I’m Hyxal — a dev who’s all about building fun, weird, and sometimes useful stuff, while making my digital space feel <em>just right</em>.<br/>
-Lately, I’ve been diving headfirst into web dev, messing around with Android apps, and obsessing over Linux ricing because let’s be honest… the defaults are kinda boring.<br/><br/>
+<p className="mt-10 mr-10 ml-10 text-2xl"> 
+Hey there! I’m Hyxal — a dev who loves poking around the guts of systems, breaking things on purpose, and making my digital space feel <em>just right</em>.<br/>
+These days I’m more into cybersecurity, web dev, and anything that lets me understand how tech works beneath the surface. Flutter, MERN, Linux, C — if it’s fun to tinker with, I’m in.<br/><br/>
 
-Most of my projects kick off ‘cause I get curious about how something works, or I stumble across a random idea and think, <em>“Yo… I could totally make that.”</em><br/><br/>
+Most of my projects start because I get curious about something, or I stumble across a random idea and think, <em>“Yeah… I could totally build that.”</em><br/><br/>
 
-I’m also working on this little portfolio site you’re looking at — a space to stash my projects, drop some thoughts, and maybe throw in a few experiments along the way.<br/>
-Stick around, might be something here you’ll like.<br/><br/>
+Outside Computers, I’m really into sociology, EDM (unironically listens to house music), and losing hours to RimWorld. I also love dogs (Golden Retrievers 💛)<br/><br/>
 
-  </p>
+This little site is my corner of the internet to stash projects, write some thoughts, and keep things simple.<br/><br/>
+</p>
+
+
+  
     <Breadcrumb className="">
   <BreadcrumbList>
     <BreadcrumbItem className="ml-10 text-2xl">
@@ -85,7 +93,7 @@ Stick around, might be something here you’ll like.<br/><br/>
  
   <CardHeader onClick={handleClick}>
     <CardTitle className="text-2xl ">Projects</CardTitle>
-    <CardDescription>Some Cool stuf I've made
+    <CardDescription>Some cool stuff I've made
        </CardDescription>
     
   </CardHeader>

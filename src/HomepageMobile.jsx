@@ -43,7 +43,7 @@ function HomepageMobile() {
           <CardHeader>
             <img src={pfp} className="rounded-lg w-full" alt="Profile" />
             <CardTitle className="text-3xl mt-4 text-center">Hello, I'm Hyxal</CardTitle>
-            <CardDescription className="text-center text-lg">Internet Wizard who makes stuff</CardDescription>
+            <CardDescription className="text-center text-lg">Internet Wizard who makes stuff...</CardDescription>
           </CardHeader>
           <CardContent className="flex flex-col items-center gap-3">
          <a href="https://github.com/Hyxal-V" className="w-full">
@@ -53,6 +53,14 @@ function HomepageMobile() {
 <a href="https://x.com/HyxalV/" className="w-full">
             <Button variant="outline" className="w-full">
               <i className="fa-brands fa-x-twitter mr-2" /> Twitter
+            </Button> </a>
+            <a href="https://www.instagram.com/hyxal.labs" className="w-full">
+            <Button variant="outline" className="w-full">
+              <i className="fa-brands fa-instagram mr-1" /> Instagram
+            </Button> </a>
+            <a href="https://www.youtube.com/@Hyxal-Labs" className="w-full">
+            <Button variant="outline" className="w-full">
+              <i className="fa-brands fa-youtube mr-2" /> Youtube
             </Button> </a>
           </CardContent>
         </Card>
@@ -73,11 +81,14 @@ function HomepageMobile() {
         </Breadcrumb>
 
         <p className="mt-8 text-lg leading-relaxed">
-          Hey there! I’m Hyxal — a dev who’s all about building fun, weird, and sometimes useful stuff, while making my digital space feel <em>just right</em>.<br /><br />
-          Lately, I’ve been diving headfirst into web dev, messing around with Android apps, and obsessing over Linux ricing because let’s be honest… the defaults are kinda boring.<br /><br />
-          Most of my projects kick off ‘cause I get curious about how something works, or I stumble across a random idea and think, <em>“Yo… I could totally make that.”</em><br /><br />
-          I’m also working on this little portfolio site you’re looking at — a space to stash my projects, drop some thoughts, and maybe throw in a few experiments along the way.<br />
-          Stick around, might be something here you’ll like.
+        Hey there! I’m Hyxal — a dev who loves poking around the guts of systems, breaking things on purpose, and making my digital space feel <em>just right</em>.<br/>
+These days I’m more into cybersecurity, web dev, and anything that lets me understand how tech works beneath the surface. Flutter, MERN, Linux, C — if it’s fun to tinker with, I’m in.<br/><br/>
+
+Most of my projects start because I get curious about something, or I stumble across a random idea and think, <em>“Yeah… I could totally build that.”</em><br/><br/>
+
+Outside Computers, I’m really into sociology, EDM (unironically listens to house music), and losing hours to RimWorld. I also love dogs (Golden Retrievers 💛)<br/><br/>
+
+This little site is my corner of the internet to stash projects, write some thoughts, and keep things simple.<br/><br/> 
         </p>
 
         {/* Second Breadcrumb */}
